@@ -1,0 +1,58 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+/* Product CSS  */
+
+.single-product {
+  transition: 0.2s;
+}
+.product-image {
+  text-align: center;
+  padding: 15px;
+  border: 1px #ccc solid;
+}
+.product-image img {
+  height: 300px;
+}
+.product-details {
+  padding: 15px;
+  background-color: #333;
+  color: #FFF;
+}
+.product-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: fixed;
+  background-color:#f9f9f9;
+}
+
+.cart-main {
+  padding-right: 30px;
+}
+
+/* Media Query Part Start */
+
+
+@media only screen and (max-width: 768px) {
+  .cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    background-color:#f9f9f9;
+  }
+  
+  .cart-main {
+    padding: 30px 0;
+  }
+}
+
+/* Media Query Part End */
